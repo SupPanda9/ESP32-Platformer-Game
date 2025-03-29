@@ -51,4 +51,3 @@ A simple platformer game controlled wirelessly using two ESP32 devices and ESP-N
 - [ ] Add enemies  
 - [ ] Enhance graphics and animations  
 - [ ] Add multiplayer mode  
-# ESP32-Platformer-Game
