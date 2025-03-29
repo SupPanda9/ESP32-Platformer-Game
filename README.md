@@ -1,5 +1,15 @@
 # 🎮 ESP32 Platformer Game
-A simple platformer game controlled wirelessly using two ESP32 devices and ESP-NOW communication.
+A simple platformer game powered by two ESP32 devices, where a character jumps between platforms and avoids falling into the water. The game runs on an ESP32 with a TFT display, while another ESP32 serves as a wireless controller using the ESP-NOW communication protocol.
+
+The receiver ESP32 (with display & SD card) handles game mechanics, rendering, and physics.
+
+The sender ESP32 (controller) sends player input signals for movement and jumping through Joystick Shield V1.a.
+
+Graphics are preloaded from an SD card, ensuring smooth performance.
+
+Built with an object-oriented approach, making future modifications easier.
+
+This project showcases real-time wireless communication, embedded game development, and ESP32’s capabilities in gaming applications.
 
 ## 📌 Features
 ✅ Character jumps between platforms and loses a life if it falls into water  
